@@ -3,7 +3,7 @@
     "target": "ES2020",
     "module": "commonjs",
     "declaration": true,
-    "outDir": ".",
+    "outDir": "./plus",
     "strict": true,
     "baseUrl": "./src",
     "paths": {
