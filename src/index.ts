@@ -1,7 +1,7 @@
+import { mapControllers, mapMethods } from "@helpers"
 import { Request, Response } from "express"
-import path from "path"
-import { mapControllers } from "./helpers/mapControllers"
-import { mapMethods } from "./helpers/mapMethods"
+
+import path = require("node:path")
 const rootDirectory = process.cwd()
 const jsonconfig = require(path.join(
   rootDirectory,
