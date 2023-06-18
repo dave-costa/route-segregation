@@ -12,6 +12,6 @@
     "esModuleInterop": true
   },
 
-  "include": ["src", "src/play.ts", "src/play.ts"],
-  "exclude": ["node_modules", "**/__tests__/*"]
+  "include": ["src", "play.ts", "play.ts", "src/helpers/mapMethods.ts", "play"],
+  "exclude": ["node_modules", "**/__tests__/*", "play", "play.ts"]
 }

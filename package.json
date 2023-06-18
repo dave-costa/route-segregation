@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "play": "ts-node-dev ./src/play.ts"
+    "play": "ts-node-dev ./play.ts"
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
