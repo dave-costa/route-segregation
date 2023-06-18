@@ -8,9 +8,10 @@
     "baseUrl": "./src",
     "paths": {
       "@helpers": ["helpers"]
-    }
+    },
+    "esModuleInterop": true
   },
 
-  "include": ["src"],
+  "include": ["src", "src/play.ts", "src/play.ts"],
   "exclude": ["node_modules", "**/__tests__/*"]
 }
