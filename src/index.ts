@@ -63,10 +63,11 @@ const route = async ({ mainPath, app }: IRouter) => {
           controllerFile,
           dataQueryFiltred.controllersAndId
         )
+
         let methodFromMapMethod = mapMethods(method, controllerFromMap.payload)
         const controllerPath = path.join(controllersDirectory, controllerFile)
         let ControllerModule = require(controllerPath).default
-        console.log(controllerFromMap)
+
         if (controllerFromMap.payload != null) {
           try {
             controllersData.push(
