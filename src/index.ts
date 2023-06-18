@@ -36,7 +36,7 @@ const route = async ({ mainPath, app }: IRouter) => {
               filterArrayAndId[0]
             )
             dataControllersAndControllersAndApi.controllersAndId.push({
-              controllers: filterArrayAndId[0],
+              controller: filterArrayAndId[0],
               payload: null,
             })
           }
@@ -63,7 +63,6 @@ const route = async ({ mainPath, app }: IRouter) => {
           controllerFile,
           dataQueryFiltred.controllersAndId
         )
-
         let methodFromMapMethod = mapMethods(method, controllerFromMap.payload)
         const controllerPath = path.join(controllersDirectory, controllerFile)
         let ControllerModule = require(controllerPath).default
