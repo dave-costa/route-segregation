@@ -1,7 +1,8 @@
 {
   "name": "route-segregation",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "plus/index.js",
+  "types": "plus/index.d.ts",
   "license": "MIT",
   "scripts": {
     "build": "tsc",

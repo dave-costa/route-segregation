@@ -1,5 +1,5 @@
-import { mapControllers, mapMethods } from "@helpers"
 import { Request, Response } from "express"
+import { mapControllers, mapMethods } from "./helpers"
 
 import path = require("node:path")
 const rootDirectory = process.cwd()
