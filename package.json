@@ -1,6 +1,6 @@
 {
   "name": "route-segregation",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "plus/index.js",
   "types": "plus/index.d.ts",
   "license": "MIT",
